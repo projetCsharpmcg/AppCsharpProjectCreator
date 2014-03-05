@@ -83,12 +83,15 @@
     <Compile Include="AjouterVariable.Designer.cs">
       <DependentUpon>AjouterVariable.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenererProjet.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="NClass.cs" />
+    <Compile Include="NFonction.cs" />
     <Compile Include="NouveauProjet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +100,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeVisibilitee.cs" />
+    <Compile Include="Variable.cs" />
     <EmbeddedResource Include="AjouterClasse.resx">
       <DependentUpon>AjouterClasse.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
